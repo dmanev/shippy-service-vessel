@@ -1,6 +1,6 @@
 // shippy-service-vessel/proto/vessel.proto
 
-syntax = "proto3"
+syntax = "proto3";
 
 package vessel;
 

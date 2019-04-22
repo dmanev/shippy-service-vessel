@@ -1,8 +1,8 @@
-// vessel-service/Makefile
+# vessel-service/Makefile
 
 build:
 	protoc -I. --go_out=plugins=micro:. \
-      proto/vessel/vessel.proto
+	 proto/vessel/vessel.proto
 	docker build -t shippy-service-vessel .
 
 run:
